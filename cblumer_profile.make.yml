@@ -6,9 +6,9 @@ api: 2
 
 defaults:
   projects:
-    subdir: "contrib"
+    subdir: contrib
   libraries:
-    destination: "libraries"
+    destination: libraries
 
 projects:
   # Bootstrap base theme
@@ -20,8 +20,8 @@ projects:
   # Custom modules
   cblumer_base:
     type: module
+    subdir: custom
     download:
-      type: git
       url: https://github.com/CurtisBlumer/cblumer_base.git
       branch: master
 libraries:
