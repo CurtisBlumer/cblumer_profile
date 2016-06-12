@@ -1,0 +1,11 @@
+{
+    "name": "curtisblumer/personal-drupal-profile",
+    "type": "drupal-profile",
+    "authors": [
+        {
+            "name": "Curtis Blumer",
+            "email": "curtis.blumer@gmail.com"
+        }
+    ],
+    "require": {}
+}
