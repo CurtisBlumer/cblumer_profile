@@ -7,6 +7,8 @@ api: 2
 defaults:
   projects:
     subdir: "contrib"
+  libraries:
+    destination: "libraries"
 
 projects:
   # Bootstrap base theme
@@ -15,16 +17,25 @@ projects:
   # Contrib modules
   composer_manager:
     version: "1.8"
+  # Custom modules
+  cblumer_base:
+    type: module
+    download:
+      type: git
+      url: https://github.com/CurtisBlumer/cblumer_base.git
+      branch: master
 libraries:
   backbone:
     download:
-      type: file
-      url: http://backbonejs.org/backbone-min.js
-  underscore:
-    download:
-      type: file
-      url: http://underscorejs.org/underscore-min.js
+      url: https://github.com/jashkenas/backbone.git
+      tag: 1.3.3
   modernizr:
     download:
       type: copy
-      url: file://../include/modernizr-min.js
+      url: include/modernizr-min.js
+      sha256: 6472e45f1b0de6573782c2c5d31376c7a0bdc89c9b89174352e6a54dd1801020
+      destination: libraries
+  underscore:
+    download:
+      url: https://github.com/jashkenas/underscore.git
+      tag: 1.8.3
