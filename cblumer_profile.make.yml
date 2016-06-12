@@ -31,10 +31,9 @@ libraries:
       tag: 1.3.3
   modernizr:
     download:
-      type: copy
-      url: include/modernizr-min.js
-      sha256: 6472e45f1b0de6573782c2c5d31376c7a0bdc89c9b89174352e6a54dd1801020
-      destination: libraries
+      url: https://gist.github.com/4afeded8fb600d610ce1bf42bc14f659.git
+      directory_name: modernizr
+      filename: modernizr-min.js
   underscore:
     download:
       url: https://github.com/jashkenas/underscore.git
