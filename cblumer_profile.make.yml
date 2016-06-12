@@ -1,9 +1,0 @@
-#%YAML 1.2
-# Drush make file for http://CurtisBlumer.com
-
-core: 7.x
-api: 2
-
-defaults:
-  projects:
-    subdir: contrib
