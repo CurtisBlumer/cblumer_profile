@@ -1,0 +1,10 @@
+name = CurtisBlumer.com Installation Profile
+description = The installation profile is used to build website.
+version = 7.x-1.x-dev
+package = Site base
+
+core = 7.x
+php = 5.4
+required = TRUE
+
+dependencies[] = navbar:navbar

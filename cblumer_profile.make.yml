@@ -1,0 +1,30 @@
+#%YAML 1.2
+# Drush make file for http://curtisblumer.com
+
+core: 7.x
+api: 2
+
+defaults:
+  projects:
+    subdir: "contrib"
+
+projects:
+  # Bootstrap base theme
+  bootstrap:
+    version: "3.5"
+  # Contrib modules
+  composer_manager:
+    version: "1.8"
+libraries:
+  backbone:
+    download:
+      type: file
+      url: http://backbonejs.org/backbone-min.js
+  underscore:
+    download:
+      type: file
+      url: http://underscorejs.org/underscore-min.js
+  modernizr:
+    download:
+      type: copy
+      url: file://../include/modernizr-min.js
