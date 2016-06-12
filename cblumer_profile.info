@@ -1,5 +1,5 @@
 name = CurtisBlumer.com Installation Profile
-description = The installation profile is used to build website.
+description = The installation profile is used to build the website at http://CurtisBlumer.com
 version = 7.x-1.x-dev
 package = Site base
 
